@@ -4,7 +4,7 @@ class AccountService
     NotificationService ns=new NotificationService();
     public void openAccount()
     {
-        System.out.println("Fill details");
+        //System.out.println("Fill details");
         ac.Create();
         ns.Push();
 
